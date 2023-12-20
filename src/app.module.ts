@@ -14,7 +14,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
         port: 3306,
         username: 'root',
         password: 'Papel*01',
-        database: 'prueba',
+        database: 'Prueba',
         entities: [__dirname + '/**/*.entity{.tsm .js}'],
         synchronize: true, // (eliminar en producción)
         autoLoadEntities: true,
